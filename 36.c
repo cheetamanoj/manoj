@@ -5,12 +5,12 @@ void main()
 {
 int i; 
  int count=0;
-char s[100];
-scanf("%s",s);
-for(i=0;s[i]!='\0';i++)
+char a[100];
+scanf("%s",a);
+for(i=0;a[i]!='\0';i++)
 {
 	
-if(isdigit(s[i]))
+if(digit(a[i]))
 {
 count++;
 }
