@@ -7,8 +7,8 @@ int main(void)
 {
 	char a[10];
 	scanf("%s",a);
-	int i,flag=0,m;
-	m=strlen(a);
+	int i,flag=0,b;
+	b=strlen(a);
 	for(i=0;i<m;i++)
 	{
 		if(a[i]=='1' || a[i]=='0')
